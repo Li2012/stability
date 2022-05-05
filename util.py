@@ -86,6 +86,7 @@ def plot(x, y, theta, save_path, correction=1.0):
     # Add labels and save to disk
     plt.xlabel('x1')
     plt.ylabel('x2')
+    plt.title(save_path)
     plt.savefig(save_path)
 
 
@@ -117,4 +118,5 @@ def plot_posonly(x, y, theta, save_path, correction=1.0):
     # Add labels and save to disk
     plt.xlabel('x1')
     plt.ylabel('x2')
+    plt.title(save_path)
     plt.savefig(save_path)
